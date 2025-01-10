@@ -16,9 +16,17 @@
   (Folder "Outputs")
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
-    (Folder "Model Libraries")
-    (Folder "Stimulus Files")
-    (Folder "Include Files"))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Model Libraries"
+      (File
+         "./flyback 5v1a-PSpiceFiles/PSpiceModelApps/PSpiceModelApps_Include.lib"
+        (DisplayName
+           "./flyback 5v1a-PSpiceFiles/PSpiceModelApps/PSpiceModelApps_Include.lib")
+        (Type "PSpiceLibrary"))
+      (Sort User)))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (Folder "Logs")
   (PartMRUSelector
@@ -65,28 +73,32 @@
       (LibraryName "C:\CADENCE\SPB_24.1\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
       (DeviceIndex "0")))
   (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_24.1\tools\capture\library")
-  (MPSSessionName "rss")
+  (MPSSessionName "zbook")
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "C:\Cadence\NEW PROJECT\flyback 5v1a.dsn")
-      (Path "Design Resources" "C:\Cadence\NEW PROJECT\flyback 5v1a.dsn"
+      (Path "Design Resources"
+         "C:\Users\zbook\AppData\Roaming\SPB_Data\Flyback_converter\flyback 5v1a.dsn")
+      (Path "Design Resources"
+         "C:\Users\zbook\AppData\Roaming\SPB_Data\Flyback_converter\flyback 5v1a.dsn"
          "SCHEMATIC1")
-      (Select "Design Resources" "C:\Cadence\NEW PROJECT\flyback 5v1a.dsn"
+      (Select "Design Resources"
+         "C:\Users\zbook\AppData\Roaming\SPB_Data\Flyback_converter\flyback 5v1a.dsn"
          "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 577"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 518"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 913 24 595")
-        (Scroll "324 135")
-        (Zoom "148")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1069 24 559")
+        (Scroll "-31 0")
+        (Zoom "100")
         (Occurrence "/"))
-      (Path "C:\CADENCE\NEW PROJECT\FLYBACK 5V1A.DSN")
+      (Path
+         "C:\USERS\ZBOOK\APPDATA\ROAMING\SPB_DATA\FLYBACK_CONVERTER\FLYBACK 5V1A.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1"))))
