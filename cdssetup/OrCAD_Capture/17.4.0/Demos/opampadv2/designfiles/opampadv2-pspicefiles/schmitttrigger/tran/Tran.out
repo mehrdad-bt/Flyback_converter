@@ -1,0 +1,229 @@
+
+**** 01/06/25 20:26:01 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "schmitttrigger-Tran"  [ C:\Users\rss\AppData\Roaming\SPB_Data\cdssetup\OrCAD_Capture\17.4.0\Demos\opampadv2\designfiles
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "tran.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\rss\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 70m 0 1u 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\schmitttrigger.net" 
+
+
+
+**** INCLUDING schmitttrigger.net ****
+* source OPAMPADV2
+V_V2         0 N01135 5Vdc
+R_R1         N00197 N02460  1k TC=0,0 
+V_V3         N01005 0 5Vdc
+X_U1         N02460 0 N01005 N01135 N02484 uA741
+V_V1         N00197 0  AC 0
++SIN 0 5V 50 0 0 0
+R_R4         0 N02484  1k TC=0,0 
+R_R2         N02460 N02484  2k TC=0,0 
+C_C2         0 N07096  100u  TC=0,0 
+M_M3         N07010 N02484 0 0 M2N6755
+R_R5         N07010 N07096  10 TC=0,0 
+V_V4         N07010 0 24Vdc
+R_R6         N07096 0  10 TC=0,0 
+
+**** RESUMING tran.cir ****
+.END
+
+**** 01/06/25 20:26:01 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "schmitttrigger-Tran"  [ C:\Users\rss\AppData\Roaming\SPB_Data\cdssetup\OrCAD_Capture\17.4.0\Demos\opampadv2\designfiles
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.dx         X_U1.dy         
+          IS  800.000000E-18  800.000000E-18 
+          RS    1               1.000000E-03 
+         CJO                   10.000000E-12 
+
+
+**** 01/06/25 20:26:01 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "schmitttrigger-Tran"  [ C:\Users\rss\AppData\Roaming\SPB_Data\cdssetup\OrCAD_Capture\17.4.0\Demos\opampadv2\designfiles
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.qx         
+               NPN             
+       LEVEL    1            
+          IS  800.000000E-18 
+          BF   93.75         
+          NF    1            
+          BR    1            
+          NR    1            
+         ISS    0            
+          RE    0            
+          RC    0            
+         CJE    0            
+         VJE     .75         
+         CJC    0            
+         VJC     .75         
+         MJC     .33         
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 01/06/25 20:26:01 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "schmitttrigger-Tran"  [ C:\Users\rss\AppData\Roaming\SPB_Data\cdssetup\OrCAD_Capture\17.4.0\Demos\opampadv2\designfiles
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               M2N6755         
+               NMOS            
+       LEVEL    3            
+           L    2.000000E-06 
+           W    1.1          
+         VTO    3.143        
+          KP   21.350000E-06 
+       GAMMA    0            
+         PHI     .6          
+      LAMBDA    0            
+          RD     .06468      
+          RS     .1207       
+          RG    5.839        
+         RDS  600.000000E+03 
+          IS   44.210000E-15 
+          JS    0            
+          PB     .8          
+        PBSW     .8          
+         CBD    1.273000E-09 
+          CJ    0            
+        CJSW    0            
+          TT  370.000000E-09 
+        CGSO  729.700000E-12 
+        CGDO  310.400000E-12 
+        CGBO    0            
+         TOX  100.000000E-09 
+          XJ    0            
+       UCRIT   10.000000E+03 
+       DELTA    0            
+         ETA    0            
+      DIOMOD    1            
+         VFB    0            
+        LETA    0            
+        WETA    0            
+          U0    0            
+        TEMP    0            
+         VDD    5            
+       XPART    0            
+
+
+**** 01/06/25 20:26:01 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "schmitttrigger-Tran"  [ C:\Users\rss\AppData\Roaming\SPB_Data\cdssetup\OrCAD_Capture\17.4.0\Demos\opampadv2\designfiles
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00197)    0.0000 (N01005)    5.0000 (N01135)   -5.0000 (N02460)-19.25E-06     
+
+(N02484) 101.7E-06 (N07010)   24.0000 (N07096)   12.0000 (X_U1.6)-12.17E-09     
+
+(X_U1.7) 109.8E-06 (X_U1.8) 109.8E-06 (X_U1.9)    0.0000 (X_U1.10)    -.6077    
+
+(X_U1.11)    4.9603                   (X_U1.12)    4.9603                       
+
+(X_U1.13)    -.5938                   (X_U1.14)    -.5938                       
+
+(X_U1.53)    4.0000                   (X_U1.54)   -4.0000                       
+
+(X_U1.90) 162.2E-06                   (X_U1.91)   40.0000                       
+
+(X_U1.92)  -40.0000                   (X_U1.99)    0.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V2        -5.658E-04
+    V_V3        -5.656E-04
+    V_V1        -1.925E-08
+    V_V4        -1.200E+00
+    X_U1.vb     -1.217E-13
+    X_U1.vc      4.001E-12
+    X_U1.ve      4.548E-12
+    X_U1.vlim    1.622E-07
+    X_U1.vlp    -4.000E-11
+    X_U1.vln    -4.000E-11
+
+    TOTAL POWER DISSIPATION   2.88E+01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 01/06/25 20:26:01 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "schmitttrigger-Tran"  [ C:\Users\rss\AppData\Roaming\SPB_Data\cdssetup\OrCAD_Capture\17.4.0\Demos\opampadv2\designfiles
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  License check-out time            =        8.39
+  Total job time (using Solver 1)   =        4.41
+

@@ -1,0 +1,20 @@
+** Profile: "adder-Tran"  [ C:\Users\rss\AppData\Roaming\SPB_Data\cdssetup\OrCAD_Capture\17.4.0\Demos\opampbasic\designfiles\opampbasic-pspicefiles\adder\tran.sim ] 
+
+** Creating circuit file "tran.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../opamp.lib" 
+* From [PSPICE NETLIST] section of C:\Users\rss\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 100ms 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\adder.net" 
+
+
+.END

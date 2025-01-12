@@ -1,0 +1,180 @@
+
+**** 12/25/24 14:23:49 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "adder-Tran"  [ C:\Users\rss\AppData\Roaming\SPB_Data\cdssetup\OrCAD_Capture\17.4.0\Demos\opampbasic\designfiles\opampba
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "tran.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../opamp.lib" 
+* From [PSPICE NETLIST] section of C:\Users\rss\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 100ms 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\adder.net" 
+
+
+
+**** INCLUDING adder.net ****
+* source OPAMPBASIC
+R_R3         N03610 N00259  400k TC=0,0 
+R_R2         N03801 N00259  300k TC=0,0 
+R_R1         N03775 N00259  200k TC=0,0 
+V_V4         N00624 0 12Vdc
+R_R4         N00259 N00271  240k TC=0,0 
+V_V3         N03610 0 5Vdc
+V_V2         N03801 0 3Vdc
+X_U1         0 N00259 N00624 N03207 N00271 uA741
+V_V5         0 N03207 12Vdc
+V_V6         N03775 0 3Vdc
+
+**** RESUMING tran.cir ****
+.END
+
+INFO(ORPSIM-15423): Unable to find index file opamp.ind for library file opamp.lib.
+
+INFO(ORPSIM-15422): Making new index file opamp.ind for library file opamp.lib.
+
+Index has 5 entries from 1 file(s).
+
+**** 12/25/24 14:23:49 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "adder-Tran"  [ C:\Users\rss\AppData\Roaming\SPB_Data\cdssetup\OrCAD_Capture\17.4.0\Demos\opampbasic\designfiles\opampba
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.dx         X_U1.dy         
+          IS  800.000000E-18  800.000000E-18 
+          RS    1               1.000000E-03 
+         CJO                   10.000000E-12 
+
+
+**** 12/25/24 14:23:49 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "adder-Tran"  [ C:\Users\rss\AppData\Roaming\SPB_Data\cdssetup\OrCAD_Capture\17.4.0\Demos\opampbasic\designfiles\opampba
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.qx         
+               NPN             
+       LEVEL    1            
+          IS  800.000000E-18 
+          BF   93.75         
+          NF    1            
+          BR    1            
+          NR    1            
+         ISS    0            
+          RE    0            
+          RC    0            
+         CJE    0            
+         VJE     .75         
+         CJC    0            
+         VJC     .75         
+         MJC     .33         
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 12/25/24 14:23:49 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "adder-Tran"  [ C:\Users\rss\AppData\Roaming\SPB_Data\cdssetup\OrCAD_Capture\17.4.0\Demos\opampbasic\designfiles\opampba
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00259) 64.26E-06 (N00271)   -8.9806 (N00624)   12.0000 (N03207)  -12.0000     
+
+(N03610)    5.0000 (N03775)    3.0000 (N03801)    3.0000 (X_U1.6) 847.0E-06     
+
+(X_U1.7)   -8.9825 (X_U1.8)   -8.9825 (X_U1.9)    0.0000 (X_U1.10)    -.6076    
+
+(X_U1.11)   11.9600                   (X_U1.12)   11.9600                       
+
+(X_U1.13)    -.5938                   (X_U1.14)    -.5938                       
+
+(X_U1.53)   11.0000                   (X_U1.54)  -11.0000                       
+
+(X_U1.90)    -.0374                   (X_U1.91)   40.0000                       
+
+(X_U1.92)  -40.0000                   (X_U1.99)    0.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V4        -1.337E-03
+    V_V3        -1.250E-05
+    V_V2        -1.000E-05
+    V_V5        -1.337E-03
+    V_V6        -1.500E-05
+    X_U1.vb      8.470E-09
+    X_U1.vc      1.998E-11
+    X_U1.ve      3.526E-12
+    X_U1.vlim   -3.742E-05
+    X_U1.vlp    -4.004E-11
+    X_U1.vln    -3.997E-11
+
+    TOTAL POWER DISSIPATION   3.22E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 12/25/24 14:23:49 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "adder-Tran"  [ C:\Users\rss\AppData\Roaming\SPB_Data\cdssetup\OrCAD_Capture\17.4.0\Demos\opampbasic\designfiles\opampba
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .69
+

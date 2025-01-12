@@ -1,0 +1,85 @@
+
+**** 02/04/12 10:48:44 ****** PSpice 16.5.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "fwd_floating-line_thd"  [ D:\Work\PV_Work\Modelling\SMPS_DEsign_Kit\Demo_feb_12\ac_dc_vrm-pspicefiles\fwd_floating\line
+
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "line_thd.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../ssfwdcnv-PSpiceFiles/ac_dc_vrm.lib" 
+* From [PSPICE NETLIST] section of C:\APPS\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 36.667m 16.667m 
+.FOUR 50 10 I(V_V6) 
+.OPTIONS NOBIAS
+.OPTIONS NOECHO
+
+
+**** Generated AtoD and DtoA Interfaces ****
+
+
+
+
+
+ ****     FOURIER ANALYSIS                 TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+FOURIER COMPONENTS OF TRANSIENT RESPONSE I(V_V6)
+
+
+
+ DC COMPONENT =   1.588979E-02
+
+ HARMONIC   FREQUENCY    FOURIER    NORMALIZED    PHASE        NORMALIZED
+    NO         (HZ)     COMPONENT    COMPONENT    (DEG)       PHASE (DEG)
+
+     1     5.000E+01    5.007E+00    1.000E+00   -1.542E+02    0.000E+00
+     2     1.000E+02    3.474E-02    6.939E-03    1.372E+01    3.222E+02
+     3     1.500E+02    4.239E+00    8.466E-01    7.852E+01    5.412E+02
+     4     2.000E+02    4.262E-02    8.513E-03   -6.951E+01    5.474E+02
+     5     2.500E+02    3.000E+00    5.991E-01   -4.427E+01    7.268E+02
+     6     3.000E+02    5.177E-02    1.034E-02   -1.602E+02    7.651E+02
+     7     3.500E+02    1.789E+00    3.573E-01   -1.552E+02    9.243E+02
+     8     4.000E+02    5.893E-02    1.177E-02    1.062E+02    1.340E+03
+     9     4.500E+02    1.156E+00    2.308E-01    1.152E+02    1.503E+03
+    10     5.000E+02    6.495E-02    1.297E-02    1.311E+01    1.555E+03
+
+
+     TOTAL HARMONIC DISTORTION =   1.121256E+02 PERCENT
+
+
+          JOB CONCLUDED
+
+**** 02/04/12 10:48:44 ****** PSpice 16.5.0 (April 2011) ****** ID# 0 ********
+
+ ** Profile: "fwd_floating-line_thd"  [ D:\Work\PV_Work\Modelling\SMPS_DEsign_Kit\Demo_feb_12\ac_dc_vrm-pspicefiles\fwd_floating\line
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =      954.29
+

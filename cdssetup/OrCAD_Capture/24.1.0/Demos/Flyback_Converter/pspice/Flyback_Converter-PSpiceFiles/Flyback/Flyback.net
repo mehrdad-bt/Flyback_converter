@@ -1,0 +1,12 @@
+* source FLYBACK_CONVERTER
+L_L2         0 N9030687  250uH  
+C_C4         VOUT 0  50u IC=45 TC=0,0 
+V_Vs2         VIN 0 100Vdc
+M_M3         N9030269 N9031357 0 0 IRFZ34
+Kn_K1         L_L1 L_L2     1
+R_R1         N9031357 N9030245  33 TC=0,0 
+D_D4         N9030687 VOUT MUR150 
+L_L1         VIN N9030269  500uH  
+V_V5         N9030245 0  
++PULSE -1 8 0 1n 1n 25u 100u
+R_R_Load2         VOUT 0  15 TC=0,0 

@@ -1,0 +1,16 @@
+.ALIASES
+C_C1            C1(1=VIN1 2=N00126 ) CN @VOLTAGEMULTIPLIERS.Voltage_Multipliers(sch_1):INS28@ANALOG.C.Normal(chips)
+V_V1            V1(+=VIN1 -=0 ) CN @VOLTAGEMULTIPLIERS.Voltage_Multipliers(sch_1):INS88@SOURCE.VSIN.Normal(chips)
+D_D1            D1(1=N00126 2=VOUT1 ) CN @VOLTAGEMULTIPLIERS.Voltage_Multipliers(sch_1):INS144@BREAKOUT.Dbreak.Normal(chips)
+D_D2            D2(1=0 2=N00126 ) CN @VOLTAGEMULTIPLIERS.Voltage_Multipliers(sch_1):INS196@BREAKOUT.Dbreak.Normal(chips)
+C_C2            C2(1=VOUT1 2=0 ) CN @VOLTAGEMULTIPLIERS.Voltage_Multipliers(sch_1):INS288@ANALOG.C.Normal(chips)
+V_V2            V2(+=VIN2 -=N00863 ) CN @VOLTAGEMULTIPLIERS.Voltage_Multipliers(sch_1):INS470@SOURCE.VSIN.Normal(chips)
+D_D3            D3(1=VIN2 2=VOUT2 ) CN @VOLTAGEMULTIPLIERS.Voltage_Multipliers(sch_1):INS600@BREAKOUT.Dbreak.Normal(chips)
+C_C3            C3(1=VOUT2 2=N00863 ) CN @VOLTAGEMULTIPLIERS.Voltage_Multipliers(sch_1):INS733@ANALOG.C.Normal(chips)
+C_C4            C4(1=N00863 2=0 ) CN @VOLTAGEMULTIPLIERS.Voltage_Multipliers(sch_1):INS1140@ANALOG.C.Normal(chips)
+D_D4            D4(1=0 2=VIN2 ) CN @VOLTAGEMULTIPLIERS.Voltage_Multipliers(sch_1):INS1223@BREAKOUT.Dbreak.Normal(chips)
+_    _(Vin1=VIN1)
+_    _(Vin2=VIN2)
+_    _(Vout1=VOUT1)
+_    _(Vout2=VOUT2)
+.ENDALIASES

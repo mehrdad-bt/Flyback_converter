@@ -1,0 +1,8 @@
+* source LOWPASSFILTERS
+R_R1         N00525 N00509  500 TC=0,0 
+C_C1         N00509 0  7u  TC=0,0 
+V_V1         N00525 0 DC 0Vdc AC 1Vac 
+R_R_load         N00509 0  1k TC=0,0 
+R_R_Load1         N00813 0  1k TC=0,0 
+L_L1         N00827 N00813  2  
+V_V2         N00827 0 DC 0Vdc AC 1Vac 

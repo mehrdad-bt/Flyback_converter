@@ -1,0 +1,19 @@
+* source RESONANTFILTERS
+R_R1         VIN1 VOUT1  500 TC=0,0 
+L_L1         VOUT1 0  100m  
+C_C1         VOUT1 0  10u  TC=0,0 
+R_R_Load         VOUT1 0  1k TC=0,0 
+V_V1         VIN1 0 DC 0Vdc AC 1Vac 
+C_C2         VIN2 VOUT2  10u  TC=0,0 
+L_L2         VIN2 VOUT2  100m  
+R_R_Load1         VOUT2 0  1k TC=0,0 
+V_V2         VIN2 0 DC 0Vdc AC 1Vac 
+L_L3         VIN3 N01952  1  
+C_C3         N01952 VOUT3  1u  TC=0,0 
+R_R_Load2         VOUT3 0  1k TC=0,0 
+V_V3         VIN3 0 DC 0Vdc AC 1Vac 
+R_R2         VIN4 VOUT4  500 TC=0,0 
+L_L4         VOUT4 N024941  100m  
+C_C4         N024941 0  10u  TC=0,0 
+R_R_Load3         VOUT4 0  1k TC=0,0 
+V_V4         VIN4 0 DC 0Vdc AC 1Vac 

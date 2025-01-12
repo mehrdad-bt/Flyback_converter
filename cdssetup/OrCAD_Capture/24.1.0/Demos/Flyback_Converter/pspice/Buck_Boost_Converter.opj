@@ -1,0 +1,60 @@
+(ExpressProject "Buck_Boost_Converter"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\buck_boost_converter.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File
+       ".\buck_boost_converter-pspicefiles\buck_boost_converter\buck_boost_converter.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile
+         ".\buck_boost_converter-pspicefiles\buck_boost_converter\transient.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\buck_boost_converter-pspicefiles\buck_boost_converter\transient.sim"
+        (DisplayName "Buck_Boost_Converter-Transient")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (0
+      (LibraryName
+         "D:\ORCAD\ORCAD_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "D:\ORCAD\ORCAD_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "D:\pv_work\163\Library\To_checkin\Sample_design\Final\buck_boost_converter.dsn")
+      (Path "Design Resources"
+         "D:\pv_work\163\Library\To_checkin\Sample_design\Final\buck_boost_converter.dsn"
+         "Buck_Boost_Converter")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Simulation Profiles"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 0 200 0 317"))
+      (Tab 0)))
+  (MPSSessionName "santoshg")
+  (LastUsedLibraryBrowseDirectory
+     "D:\OrCAD\OrCAD_16.2\tools\capture\library\pspice"))

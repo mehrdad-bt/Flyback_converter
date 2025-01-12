@@ -1,0 +1,58 @@
+(ExpressProject "HighPassFilters"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\highpassfilters.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\highpassfilters-pspicefiles\hpfilters\hpfilters.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\highpassfilters-pspicefiles\hpfilters\ac.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\highpassfilters-pspicefiles\hpfilters\ac.sim"
+        (DisplayName "HPFilters-AC")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "D:\pv_work\163\Library\To_checkin\Sample_design\Final\highpassfilters.dsn")
+      (Path "Design Resources"
+         "D:\pv_work\163\Library\To_checkin\Sample_design\Final\highpassfilters.dsn"
+         "HPFilters")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Simulation Profiles"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 0 200 0 304"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 22 1127 22 475")
+        (Scroll "-48 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "D:\PV_WORK\163\LIBRARY\TO_CHECKIN\SAMPLE_DESIGN\FINAL\HIGHPASSFILTERS.DSN")
+      (Schematic "HPFilters")
+      (Page "HPF_Cap_Ind")))
+  (MPSSessionName "santoshg"))

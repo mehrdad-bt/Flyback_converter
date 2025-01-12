@@ -1,0 +1,23 @@
+* source BJT_AMPLIFIERS
+R_R6         N10836 VOUT2  5k TC=0,0 
+V_Vbias1         N03407 0 2.5Vdc
+R_R2         N00424 VOUT  50 TC=0,0 
+Q_Q1         VOUT N00190 0 Q40237
+R_R7         N10902 N107600  1k TC=0,0 
+R_R4         VOUT1 0  5k TC=0,0 
+R_R5         N10970 N10942  100 TC=0,0 
+V_Vbias2         N10970 0 1Vdc
+V_Vbias         N001130 0 2.5Vdc
+V_V1         N00089 N001130  
++SIN 0 1.5 2k 0 0 0
+V_Vcc1         N03543 0 15Vdc
+R_R1         N00089 N00190  1k TC=0,0 
+V_V3         N107600 0  
++SIN 0 0.15 2k 0 0 0
+V_Vcc         N00424 0 15Vdc
+Q_Q2         N03543 N03347 VOUT1 Q40237
+V_Vcc2         N10836 0 15Vdc
+R_R3         N03379 N03347  1k TC=0,0 
+Q_Q3         VOUT2 N10942 N10902 Q40237
+V_V2         N03379 N03407  
++SIN 0 1.5 2k 0 0 0

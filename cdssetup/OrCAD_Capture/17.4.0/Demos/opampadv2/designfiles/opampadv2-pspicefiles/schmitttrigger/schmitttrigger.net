@@ -1,0 +1,14 @@
+* source OPAMPADV2
+V_V2         0 N01135 5Vdc
+R_R1         N00197 N02460  1k TC=0,0 
+V_V3         N01005 0 5Vdc
+X_U1         N02460 0 N01005 N01135 N02484 uA741
+V_V1         N00197 0  AC 0
++SIN 0 5V 50 0 0 0
+R_R4         0 N02484  1k TC=0,0 
+R_R2         N02460 N02484  2k TC=0,0 
+C_C2         0 N07096  100u  TC=0,0 
+M_M3         N07010 N02484 0 0 M2N6755
+R_R5         N07010 N07096  10 TC=0,0 
+V_V4         N07010 0 24Vdc
+R_R6         N07096 0  10 TC=0,0 

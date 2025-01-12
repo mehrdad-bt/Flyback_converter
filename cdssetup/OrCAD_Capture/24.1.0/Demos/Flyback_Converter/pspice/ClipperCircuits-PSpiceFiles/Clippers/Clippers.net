@@ -1,0 +1,10 @@
+* source CLIPPERCIRCUITS
+V_V2         N00633 0  
++SIN 0 5 1K 0 0 0
+V_V1         N00090 0  
++SIN 0 5 1K 0 0 0
+D_D3         VOUT2 0 Dbreak 
+R_R1         N00090 VOUT1  1k TC=0,0 
+R_R2         N00633 VOUT2  1k TC=0,0 
+D_D1         0 VOUT1 Dbreak 
+D_D2         0 VOUT2 Dbreak 

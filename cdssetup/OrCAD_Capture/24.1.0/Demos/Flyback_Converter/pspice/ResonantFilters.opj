@@ -1,0 +1,60 @@
+(ExpressProject "ResonantFilters"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\resonantfilters.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\resonantfilters-pspicefiles\resonant_filters\resonant_filters.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\resonantfilters-pspicefiles\resonant_filters\ac.sim"
+        (DisplayName "Resonant_Filters-AC")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\resonantfilters-pspicefiles\resonant_filters\ac.sim"))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (MPSSessionName "singhr")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "D:\ccr_post_163\CCMPR00727394_templates\test\resonantfilters.dsn")
+      (Path "Design Resources"
+         "D:\ccr_post_163\CCMPR00727394_templates\test\resonantfilters.dsn"
+         "Resonant_Filters")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "Design Resources"
+         "D:\ccr_post_163\CCMPR00727394_templates\test\resonantfilters.dsn"
+         "Resonant_Filters" "Resonant"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -34 0 200 0 300"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -34 22 1055 33 454")
+        (Scroll "-80 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "D:\CCR_POST_163\CCMPR00727394_TEMPLATES\TEST\RESONANTFILTERS.DSN")
+      (Schematic "Resonant_Filters")
+      (Page "Resonant"))))

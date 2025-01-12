@@ -1,0 +1,67 @@
+(ExpressProject "SingleSwitch_ForwardConverter"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\singleswitch_forwardconverter.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File
+       ".\singleswitch_forwardconverter-pspicefiles\single_switch_fc\single_switch_fc.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\singleswitch_forwardconverter-pspicefiles\single_switch_fc\transient.sim"
+        (DisplayName "Single_Switch_FC-Transient")
+        (Type "PSpice Profile"))
+      (ActiveProfile
+         ".\singleswitch_forwardconverter-pspicefiles\single_switch_fc\transient.sim"))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (0
+      (LibraryName
+         "D:\ORCAD\ORCAD_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "D:\pv_work\163\Library\To_checkin\Sample_design\Final\singleswitch_forwardconverter.dsn")
+      (Path "Design Resources"
+         "D:\pv_work\163\Library\To_checkin\Sample_design\Final\singleswitch_forwardconverter.dsn"
+         "Single_Switch_FC")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "Design Resources"
+         "D:\pv_work\163\Library\To_checkin\Sample_design\Final\singleswitch_forwardconverter.dsn"
+         "Single_Switch_FC" "SS_ForwardConverter"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -23 0 200 0 383"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 176 1281 176 629")
+        (Scroll "-48 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "D:\PV_WORK\163\LIBRARY\TO_CHECKIN\SAMPLE_DESIGN\FINAL\SINGLESWITCH_FORWARDCONVERTER.DSN")
+      (Schematic "Single_Switch_FC")
+      (Page "SS_ForwardConverter")))
+  (MPSSessionName "santoshg"))

@@ -1,0 +1,11 @@
+* source OPAMP_DIFF
+R_R1         N00100 N00096  5k TC=0,0 
+C_C1         N00143 N00100  10n  TC=0,0 
+V_V1         N00143 0  
++SIN 0 1 20 0 0 0
+R_R2         N00096 VOUT1  500k TC=0,0 
+X_U2A         0 N00096  VOUT1 OPAMP1
+X_U2B         0 N06633  VOUT2 OPAMP2
+R_R4         N06677 N06633  10k TC=0,0 
+C_C2         N06633 VOUT2  1n IC=0v TC=0,0 
+V_V2         N06677 0 -1Vdc

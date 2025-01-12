@@ -1,0 +1,6 @@
+* source BANDPASSFILTER_CAP
+R_R_Load         N02251 0  1k TC=0,0 
+C_C1         N02193 0  2.5u IC=1m TC=0,0 
+C_C2         N02193 N02251  1u IC=1m TC=0,0 
+V_V1         N02223 0 DC 0Vdc AC 1Vac 
+R_R1         N02223 N02193  200 TC=0,0 

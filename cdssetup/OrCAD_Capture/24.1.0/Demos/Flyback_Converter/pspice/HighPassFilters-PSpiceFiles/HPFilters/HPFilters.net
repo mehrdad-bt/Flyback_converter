@@ -1,0 +1,8 @@
+* source HIGHPASSFILTERS
+C_C1         N00330 N00316  1m  TC=0,0 
+R_R_Load         N00316 0  1 TC=0,0 
+V_V1         N00330 0 DC 0Vdc AC 1Vac 
+R_R1         N00930 N00836  100 TC=0,0 
+L_L1         N00836 0  100m  
+R_R_Load1         N00836 0  1k TC=0,0 
+V_V2         N00930 0 DC 0Vdc AC 1Vac 

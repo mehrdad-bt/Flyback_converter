@@ -1,0 +1,6 @@
+* source BANDPASSFILTER_IND
+R_R_Load1         N01923 0  1k TC=0,0 
+V_V2         N01893 0 DC 0Vdc AC 1Vac 
+R_R2         N01893 N01873  200 TC=0,0 
+L_L1         N01873 0  100m  
+L_L2         N01873 N01923  3  

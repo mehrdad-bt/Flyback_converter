@@ -1,0 +1,452 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+
+  
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+
+
+  
+  
+  <title>PSpice_Sample_Designs</title>
+
+   <link type="text/css" rel="stylesheet" href="../../../../tools/capture/tclscripts/orPrmDesigner/CSS/orDz.css"/>  
+   <script type="text/javascript" language="javascript" src="../../../../share/orJSLibs/orcad/orCommonJS/OrCommon.js"></script>
+   <style>
+     html {
+      overflow: auto;
+      position: relative;
+     }
+     td { border:none; font-size: 14px;}
+     h3 {
+      font-size: 14px;
+     }
+       img {
+  margin:10px auto;
+     }
+
+   </style>
+
+</head>
+
+
+<body style="padding:2%;">
+
+
+<br>
+
+
+<br>
+
+
+<br>
+
+
+<br>
+
+
+<table style="text-align: left; width: 1000px; height: 1948px;" border="0" cellpadding="2" cellspacing="2">
+
+
+  <tbody>
+
+
+    <tr>
+
+
+      <td style="font-family: Times New Roman; text-align: left; vertical-align: top;"><big><big><big><big><big><span style="font-size: 11pt; line-height: 107%;"><a name="BANDPASSFILTER_CAP"></a><a name="A1"></a>BANDPASSFILTER_CAP</span></big></big></big></big></big></td>
+
+
+      <td style="font-family: Times New Roman; height: 70px; width: 845px; text-align: left; vertical-align: top;"><big><span style="font-size: 11pt; line-height: 107%;">A
+capacitive bandpass filter that demonstrates frequency domain
+(AC) analysis.</span></big></td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td style="font-family: Times New Roman; text-align: left; vertical-align: top;"><big><span style="font-size: 11pt; line-height: 107%;"><a name="BANDPASSFILTER_IND"></a><a name="A2"></a>BANDPASSFILTER_IND</span></big></td>
+
+
+      <td style="font-family: Times New Roman; height: 70px; width: 845px; text-align: left; vertical-align: top;"><big><span style="font-size: 11pt; line-height: 107%;">An
+inductive bandpass filter that demonstrates frequency domain
+(<span style="font-style: italic;">AC</span>) analysis.</span></big></td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td style="font-family: Times New Roman; text-align: left; vertical-align: top;"><big><span style="font-size: 11pt; line-height: 107%;"><a name="BANDSTOPFILTER"></a><a name="A3"></a>BANDSTOPFILTER</span></big></td>
+
+
+      <td style="font-family: Times New Roman; height: 70px; width: 845px; text-align: left; vertical-align: top;"><big><span style="font-size: 11pt; line-height: 107%;">An
+RC circuit that rejects a band of frequencies. This design demonstrates the
+frequency response of the band-stop filter.</span></big></td>
+
+
+    </tr>
+
+	<tr>
+
+
+      <td style="vertical-align: top;"><a name="Bjtamplifiers"></a><a name="A4"></a>Bjt amplifiers</td>
+
+
+      <td style="height: 70px; width: 845px; vertical-align: top;">All three BJT Amplifier configurations CB,CC and CE are designed. The trnsient analysis is performed to the amplifiers to measure its gain.</td>
+
+
+    </tr>
+	
+    <tr>
+
+
+      <td style="font-family: Times New Roman; text-align: left; vertical-align: top;"><big><span style="font-size: 11pt; line-height: 107%;"><a name="BOOST_CONVERTER"></a><a name="A5"></a>BOOST_CONVERTER</span></big></td>
+
+
+      <td style="font-family: Times New Roman; height: 70px; width: 845px; vertical-align: top;"><big><span style="font-size: 11pt; line-height: 107%;">A simple
+step-up converter that converts low DC input to a high-voltage, DC output.</span></big></td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td style="font-family: Times New Roman; vertical-align: top;"><big><a name="BUCK_CONVERTER"></a><a name="A7"></a>BUCK_CONVERTER</big></td>
+
+
+      <td style="font-family: Times New Roman; height: 70px; width: 845px; vertical-align: top;"><big> </big>A simple step-down converter that produces a DC output voltage that is less than the input DC voltage.</td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td style="font-family: Times New Roman; vertical-align: top;"><big><big><big><big><big><span style="font-size: 11pt; line-height: 107%;"><a name="BUCK_BOOST_CONVERTER"></a><a name="A6"></a>BUCK_BOOST_CONVERTER</span></big></big></big></big></big></td>
+
+
+      <td style="font-family: Times New Roman; height: 70px; width: 845px; vertical-align: top;"><big><span style="font-size: 11pt; line-height: 107%;">A
+combination of Buck- and Boost-converter where the output
+voltage&nbsp;can be higher than or lower than the input voltage,
+depending on the duty-ratio. <br>
+
+
+      </span></big></td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td style="vertical-align: top;"><a name="CLAMPERCIRCUITS"></a><a name="A8"></a>CLAMPERCIRCUITS</td>
+
+
+      <td style="height: 70px; width: 845px; vertical-align: top;">A set of&nbsp; simple clamper circuits that restrict the
+positive or the negative peak value of the output waveforms to a
+specific value. </td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td style="vertical-align: top;"><a name="CLIPPERCIRCUITS"></a><a name="A9"></a>CLIPPERCIRCUITS</td>
+
+
+      <td style="height: 70px; width: 845px; vertical-align: top;">&nbsp;Simple clipping circuits, negative peak and symmetrical clippers.&nbsp;<big><span style="font-size: 11pt; line-height: 107%;">This design example demonstrates <span style="font-style: italic;">Time domain</span>
+(<span style="font-style: italic;">Transient</span>) analysis.</span></big></td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td style="vertical-align: top;"><a name="DECADE_COUNTER"></a><a name="A10"></a>DECADE_COUNTER</td>
+
+
+      <td style="height: 70px; width: 845px; vertical-align: top;">A simple Decade counter designed using four J-K flip-flops.</td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td style="vertical-align: top;"><a name="DOUBLESWITCH_FORWARDCONVERTER"></a><a name="A11"></a>DOUBLESWITCH_FORWARDCONVERTER</td>
+
+
+      <td style="height: 70px; width: 845px; vertical-align: top;">The
+simple forward converter&nbsp;transfers the input source to the load
+during the on-time of the power switch. Uses diodes to direct the flow
+of magnetizing current into the input supply,&nbsp;removing the need
+for demagnetizing winding.</td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td style="vertical-align: top;"><a name="FLYBACK_CONVERTER"></a><a name="A12"></a>FLYBACK_CONVERTER</td>
+
+
+      <td style="height: 70px; width: 845px; vertical-align: top;">A
+buck-boost converter with a galvanic isolation between the input and
+the output. Inductor is split to form a transformer, so that the
+voltage ratios are multiplied with an additional advantage of isolation.</td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td style="vertical-align: top;"><a name="HIGHPASSFILTERS"></a><a name="A13"></a>HIGHPASSFILTERS</td>
+
+
+      <td style="height: 70px; width: 845px; vertical-align: top;">Capacitive
+and Inductive filter circuit that restricts the low-frequency signals
+and allows the high-frequency signals to pass. This design example
+demonstrates frequency domain (AC) analysis. </td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td style="vertical-align: top;"><a name="JOHNSON_COUNTER"></a><a name="A14"></a>JOHNSON_COUNTER</td>
+
+
+      <td style="height: 70px; width: 845px; vertical-align: top;">A modified ring counter, where the inverted output of the last flip-flop is used as the input of the first flip-flops.</td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td style="vertical-align: top;"><a name="LOWPASSFILTER"></a><a name="A15"></a>LOWPASSFILTER</td>
+
+
+      <td style="height: 70px; width: 845px; vertical-align: top;">Capacitive
+and Inductive filter circuit that restricts the high-frequency signals
+and allows the low-frequency signals to pass. This design example
+demonstrates frequency domain (AC) analysis.</td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td style="vertical-align: top;"><a name="L_R_SHIFTREGISTER"></a><a name="A16"></a>L_R_SHIFTREGISTER</td>
+
+
+      <td style="height: 70px; width: 845px; vertical-align: top;">A
+bidirectional or reversible shift register, in which the data can be
+shifted either left or right.&nbsp; This circuit uses four D flip-flops
+to create a 4-bit shift register. </td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td style="vertical-align: top;"><a name="MOD10_COUNTER"></a><a name="A17"></a>MOD10_COUNTER</td>
+
+
+      <td style="height: 70px; width: 845px; vertical-align: top;">A
+counter that has 10 states, from 0 to 9, and resets itself after 9.
+This asynchronous counter circuit is designed using four J-K flip-flops.</td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td style="vertical-align: top;"><a name="OPAMP_DIFF"></a><a name="A18"></a>OPAMP_DIFF</td>
+
+
+      <td style="height: 70px; width: 845px; vertical-align: top;">Simple differentiator and integrator circuits designed using operational amplifiers.<br>
+      <br>
+      </td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td style="vertical-align: top;"><a name="PISO_SHIFTREGISTER"></a><a name="A19"></a>PISO_SHIFTREGISTER</td>
+
+
+      <td style="height: 90px; width: 845px; vertical-align: top;"><span style="font-style: italic;">Parallel In Serial Out Shift </span>register is implemented using four <span style="font-style: italic;">D</span> flip-flops and <span style="font-style: italic;">NAND</span> gates. To write data in, the mode control line is taken to <span style="font-style: italic;">LOW</span> and the data is clocked in.&nbsp; The data can be shifted when the mode control line is <span style="font-style: italic;">HIGH</span> as <span style="font-style: italic;">SHIFT</span> is active high.&nbsp; The register performs right-shift operation on the application of a clock pulse.</td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td style="vertical-align: top;"><a name="RESONANTFILTERS"></a><a name="A20"></a>RESONANTFILTERS</td>
+
+
+      <td style="height: 70px; width: 845px; vertical-align: top;">A
+series of filter circuits, based on the resonance frequency of
+inductors and capacitors, are used in the design. At resonance
+frequencies, band-pass filters show maximum output, whereas band stop
+filters have zero (minimum) output voltage.<br>
+      </td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td style="vertical-align: top;"><a name="RING_COUNTER"></a><a name="A21"></a>RING_COUNTER</td>
+
+
+      <td style="height: 70px; width: 845px; vertical-align: top;">A
+counter made from circular shift registers, where output of one
+flip-flop is used as input of the next. Implemented using four <span style="font-style: italic;">D</span> flip-flops.</td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td style="vertical-align: top;"><a name="RIPPLE_COUNTER"></a><a name="A22"></a>RIPPLE_COUNTER</td>
+
+
+      <td style="height: 70px; width: 845px; vertical-align: top;">An asynchronous counter implemented using <span style="font-style: italic;">T</span> flip-flops. The change of state "ripples" through the counter. Counts from <span style="font-family: monospace;">00</span> to <span style="font-family: monospace;">FF</span>.</td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td style="vertical-align: top;"><a name="RIPPLE_DOWN_COUNTER"></a><a name="A23"></a>RIPPLE_DOWN_COUNTER</td>
+
+
+      <td style="height: 70px; width: 845px; vertical-align: top;">An asynchronous counter implemented using <span style="font-style: italic;">T</span> flip-flops. Counts from <span style="font-family: monospace;">FF</span> to <span style="font-family: monospace;">00</span>.</td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td style="vertical-align: top;"><a name="SINGLESWITCH_FORWARDCONVERTER"></a><a name="A24"></a>SINGLESWITCH_FORWARDCONVERTER</td>
+
+
+      <td style="height: 70px; width: 845px; vertical-align: top;">The simple forward converter&nbsp;transfers the input source to the load
+during the on-time of the power switch. Uses diodes to direct the flow
+of magnetizing current into the input supply,&nbsp;removing the need for
+demagnetizing winding.</td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td style="vertical-align: top;"><a name="SIPO_SHIFTREGISTER"></a><a name="A25"></a>SIPO_SHIFTREGISTER</td>
+
+
+      <td style="height: 70px; width: 845px; vertical-align: top;"><span style="font-style: italic;">Serial&nbsp; In Parallel&nbsp; Out Shift </span>register. Implemented using four <span style="font-style: italic;">D </span>flip-flops, the data bits are entered serially. Once the data bits are stored, each bit appears on its respective output&nbsp; line, and all bits are available simultaneously.</td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td style="vertical-align: top;"><a name="UP_DOWN_COUNTER"></a><a name="A26"></a>UP_DOWN_COUNTER</td>
+
+
+      <td style="height: 70px; width: 845px; vertical-align: top;">A
+counter that changes its state in either direction, under control of an
+up&ndash;down selector input. Counter value&nbsp; is incremented when
+the selector is in the up state, where as the value decrements when the
+selector is in the down state.</td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td style="vertical-align: top;"><a name="VOLTAGEMULTIPLIERS"></a><a name="A27"></a>VOLTAGEMULTIPLIERS</td>
+
+
+      <td style="height: 70px; width: 845px; vertical-align: top;">A full-wave and half-wave voltage multiplier circuits. The output voltage is an integral multiple of <span style="font-family: monospace;">Vin</span>.</td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td style="vertical-align: top;"><a name="ZENERDIODE"></a><a name="A28"></a>ZENERDIODE</td>
+
+
+      <td style="height: 70px; width: 845px; vertical-align: top;">Simple clipper and regulator circuits implemented using Zener diodes. </td>
+
+
+    </tr>
+
+	  
+  
+  </tbody>
+</table>
+
+
+<br>
+
+<script>
+  orSetAppTheme();
+</script>
+
+</body>
+</html>

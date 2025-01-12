@@ -1,0 +1,9 @@
+* source ZENERDIODE
+X_D4         N04633 VOUT2 awb1n2810a PARAMS:               
+X_D1         0 VOUT1 awb1n2810a PARAMS:               
+V_V2         VIN2 0  
++SIN 0 30 1K 0 0 0
+R_R1         VIN1 VOUT1  1k TC=0,0 
+V_V1         VIN1 0 30Vdc
+X_D3         N04633 0 awb1n2810a PARAMS:               
+R_R2         VIN2 VOUT2  1k TC=0,0 

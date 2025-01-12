@@ -1,0 +1,89 @@
+(ExpressProject "VoltageMultipliers"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\voltagemultipliers.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File
+       ".\voltagemultipliers-pspicefiles\voltage_multipliers\voltage_multipliers.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\voltagemultipliers-pspicefiles\voltage_multipliers\transient.sim"
+        (DisplayName "Voltage_Multipliers-Transient")
+        (Type "PSpice Profile"))
+      (ActiveProfile
+         ".\voltagemultipliers-pspicefiles\voltage_multipliers\transient.sim"))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (0
+      (LibraryName
+         "D:\ORCAD\ORCAD_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "D:\ORCAD\ORCAD_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (Dbreak
+      (FullPartName "Dbreak.Normal")
+      (LibraryName
+         "D:\ORCAD\ORCAD_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (VSIN
+      (FullPartName "VSIN.Normal")
+      (LibraryName
+         "D:\ORCAD\ORCAD_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VAC
+      (FullPartName "VAC.Normal")
+      (LibraryName
+         "D:\ORCAD\ORCAD_16.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "D:\OrCAD\OrCAD_16.2\tools\capture\library\pspice")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "D:\ccr_post_163\CCMPR00727394_templates\test\voltagemultipliers.dsn")
+      (Path "Design Resources"
+         "D:\ccr_post_163\CCMPR00727394_templates\test\voltagemultipliers.dsn"
+         "Voltage_Multipliers")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "Design Resources"
+         "D:\ccr_post_163\CCMPR00727394_templates\test\voltagemultipliers.dsn"
+         "Voltage_Multipliers" "Multiplier_Ckts"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -34 0 200 0 284"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -34 22 1055 33 454")
+        (Scroll "-80 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "D:\CCR_POST_163\CCMPR00727394_TEMPLATES\TEST\VOLTAGEMULTIPLIERS.DSN")
+      (Schematic "Voltage_Multipliers")
+      (Page "Multiplier_Ckts")))
+  (MPSSessionName "singhr"))

@@ -1,0 +1,23 @@
+** Profile: "fwd_floating-tran"  [ C:\Users\rss\AppData\Roaming\SPB_Data\cdssetup\OrCAD_Capture\24.1.0\Demos\ssfwdcnv\designfiles\ssfwdcnv-pspicefiles\fwd_floating\tran.sim ] 
+
+** Creating circuit file "tran.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../ssfwdcnv-PSpiceFiles/ac_dc_vrm.lib" 
+* From [PSPICE NETLIST] section of C:\Users\rss\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 20us 0 
+.OPTIONS LIBRARY
+.OPTIONS ADVCONV
+.OPTIONS ABSTOL= 1.0u
+.OPTIONS ITL4= 40
+.PROBE64 V(alias(*)) I(alias(*)) 
+.INC "..\fwd_floating.net" 
+
+
+.END

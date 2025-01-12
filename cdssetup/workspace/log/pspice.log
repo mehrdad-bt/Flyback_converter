@@ -1,0 +1,56 @@
+[09:35:23.003256] periodic Lic check successful
+[09:35:23.016560] Feature usage summary:
+[09:35:23.125159]   PSpiceAD  
+
+PATH VARIABLE
+
+C:\Cadence\SPB_24.1/tools/jre/bin/client
+C:\Cadence\SPB_24.1\share\orApps\OrCaptureApp\..\..\..\tools\bin
+C:\Cadence\SPB_24.1/tools/jre/bin/client
+C:\Cadence\SPB_24.1\tools\bin\
+C:\Windows\system32
+C:\Windows
+C:\Windows\System32\Wbem
+C:\Windows\System32\WindowsPowerShell\v1.0\
+C:\Windows\System32\OpenSSH\
+C:\Program Files\Git\cmd
+C:\Users\rss\AppData\Local\Microsoft\WindowsApps
+
+SESSION LOG
+
+--------------- INFO(ORPROBE-3209): Simulation Profile:  SCHEMATIC1-ttyrtyt ---------------
+INFO(ORPROBE-3183): Simulation running...
+
+COMMAND WINDOW
+
+Initializing Scripting...
+Loading C:/Cadence/SPB_24.1/tools/pspice/tclscripts/pspAutoLoad/pspAutoSoftwareUpdateUI.tcl
+Loading C:/Cadence/SPB_24.1/tools/pspice/tclscripts/pspAutoLoad/pspAutoTISupport.tcl
+Loading C:/Cadence/SPB_24.1/tools/pspice/tclscripts/pspAutoLoad/pspCEFInit.tcl
+Loading C:/Cadence/SPB_24.1/tools/pspice/tclscripts/pspAutoLoad/pspCoreLossAppinit.tcl
+Loading C:/Cadence/SPB_24.1/tools/pspice/tclscripts/pspAutoLoad/pspMatlabMenu.tcl
+Loading C:/Cadence/SPB_24.1/tools/pspice/tclscripts/pspAutoLoad/pspinit.tcl
+
+
+
+[10:06:59.003248] periodic Lic check successful
+[10:06:59.016552] Feature usage summary:
+[10:06:59.125151]   PSpiceAD  
+
+SESSION LOG
+
+--------------- INFO(ORPROBE-3209): Simulation Profile:  SCHEMATIC1-ttyrtyt ---------------
+INFO(ORPROBE-3183): Simulation running...
+
+COMMAND WINDOW
+
+Initializing Scripting...
+Loading C:/Cadence/SPB_24.1/tools/pspice/tclscripts/pspAutoLoad/pspAutoSoftwareUpdateUI.tcl
+Loading C:/Cadence/SPB_24.1/tools/pspice/tclscripts/pspAutoLoad/pspAutoTISupport.tcl
+Loading C:/Cadence/SPB_24.1/tools/pspice/tclscripts/pspAutoLoad/pspCEFInit.tcl
+Loading C:/Cadence/SPB_24.1/tools/pspice/tclscripts/pspAutoLoad/pspCoreLossAppinit.tcl
+Loading C:/Cadence/SPB_24.1/tools/pspice/tclscripts/pspAutoLoad/pspMatlabMenu.tcl
+Loading C:/Cadence/SPB_24.1/tools/pspice/tclscripts/pspAutoLoad/pspinit.tcl
+
+
+

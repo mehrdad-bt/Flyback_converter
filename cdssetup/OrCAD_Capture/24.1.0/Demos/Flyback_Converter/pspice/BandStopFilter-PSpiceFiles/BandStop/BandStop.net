@@ -1,0 +1,9 @@
+* source BANDSTOPFILTER
+R_R1         N00265 N00127  200 TC=0,0 
+R_R2         N00127 N00293  200 TC=0,0 
+C_C1         N00127 0  2u  TC=0,0 
+V_V1         N00265 0 DC 0Vdc AC 1Vac 
+C_C2         N00265 N00255  1u  TC=0,0 
+R_R_Load         N00293 0  1k TC=0,0 
+C_C3         N00255 N00293  1u  TC=0,0 
+R_R3         N00255 0  100 TC=0,0 
