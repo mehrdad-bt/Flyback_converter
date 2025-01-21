@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Settings>
+    <Version>1.1</Version>
+    <Affect>Project</Affect>
+  </Settings>
+  <Config />
+  <Documents>
+    <DocumentConfig>
+      <Name>5V2A Flyback converter Schematic.SchDoc</Name>
+      <Id>PZIJJSTJ</Id>
+      <Config />
+      <Results />
+    </DocumentConfig>
+  </Documents>
+  <Results />
+</ProjectConfig>
