@@ -1,0 +1,16 @@
+Added Component: Designator=R4(RES_0402)
+Add component (AddParameter): Name = "Distributor Link"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R6(RES_0402)
+Add component (AddParameter): Name = "Distributor Link"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 v2 Pin=R4-1
+Added Pin To Net: NetName=NetJ1_A5 Pin=R4-2
+Added Pin To Net: NetName=NetJ1_B5 Pin=R6-1
+Added Pin To Net: NetName=NetJ1_A5 Pin=R6-2
+Added Member To Class: ClassName=5V2A Flyback converter Schematic Member=Component R4 10k
+Added Member To Class: ClassName=5V2A Flyback converter Schematic Member=Component R6 10k

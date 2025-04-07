@@ -1,0 +1,8 @@
+Added Component: Designator=R2(RES_0603)
+Add component (AddParameter): Name = "Distributor Link"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND-2 Pin=R2-1
+Added Pin To Net: NetName=+5 v2 Pin=R2-2
+Added Member To Class: ClassName=5V2A Flyback converter Schematic Member=Component R2 470R

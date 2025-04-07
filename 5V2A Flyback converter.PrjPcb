@@ -67,6 +67,23 @@ GenerateClassCluster=0
 DocumentUniqueId=PZIJJSTJ
 
 [Document2]
+DocumentPath=..\AltiumDesigner-Libraries-main\Schematic-Lib-PhilsLab.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=NDNXAREH
+
+[Document3]
 DocumentPath=5V2A Flyback converter Schematic library.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -83,7 +100,24 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ITBRYEOM
 
-[Document3]
+[Document4]
+DocumentPath=..\AltiumDesigner-Libraries-main\Footprint-Lib-PhilsLab.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=PJJBOUDJ
+
+[Document5]
 DocumentPath=5V2A Flyback converter pcb library.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -100,7 +134,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QQOPQVYL
 
-[Document4]
+[Document6]
 DocumentPath=project_sim_config.simcfg
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -117,7 +151,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document5]
+[Document7]
 DocumentPath=5V2A Flyback converter pcb.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1

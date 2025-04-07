@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=NetD3_1 Pin=R1-1
+Removed Pin From Net: NetName=+5 v2 Pin=R1-2
+Removed Member From Class: ClassName=5V2A Flyback converter Schematic Member=R1
+Added Component: Designator=R?(4.7k)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "CRCW12064K70FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/crcw12064k70fkea/vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-23/452928.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Geometry.Height"; Value = "0.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "CRCW12064K70FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "71-CRCW1206-4.7K-E3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW12064K70FKEA?qs=1vm4qhDHCvlKJmatsKzyFQ%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetD3_1 Pin=R?-1
+Added Pin To Net: NetName=+5 v2 Pin=R?-2
+Added Member To Class: ClassName=5V2A Flyback converter Schematic Member=Component R? 1k
